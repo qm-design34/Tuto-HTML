@@ -1,0 +1,173 @@
+/* Global */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/Raleway-Medium.woff2') format('woff2'),
+        url('../fonts/raleway/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/raleway/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/raleway/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/Raleway-Light.woff2') format('woff2'),
+        url('../fonts/raleway/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/Raleway-SemiBold.woff2') format('woff2'),
+        url('../fonts/raleway/Raleway-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/Raleway-Black.woff2') format('woff2'),
+        url('../fonts/raleway/Raleway-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    font-family: 'Raleway';
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #4071ed;
+}
+
+.section {
+    padding: 80px;
+}
+
+.light {
+    background-color: #F6F5FF;
+    color: #000a2d;
+}
+
+.dark {
+    background-color: #000a2d;
+    color: #fff;
+}
+@media screen and (min-width:768px) {    
+
+    .container {
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .align_items_center {
+        align-items: center;
+    }
+    .col_default {
+        padding: 10px;
+        align-items: center;
+    }
+
+    .col_3 {
+        width: 25%;;
+    } 
+
+    .col_4 {
+        width: 33%;;
+    }
+
+    .col_6 {
+        width: 50%;
+    }
+
+    .col_8 {
+        width: 67%;;
+    } 
+
+    .col_9 {
+        width: 75%;;
+    } 
+
+    .col_12 {
+        width: 100%;
+    }    
+}
+
+/* Header */
+
+header {
+    padding: 10px 0;
+    background-color: #4071ed;
+}
+
+header .container, .flex_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header_left img {
+    width: 75px;
+}
+
+.header_right ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.header_right li {
+    padding: 15px 10px;
+}
+
+.header_right li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.header_right li a:hover {
+    color: #000a2d;
+}
+
+/* Hero */
+
+.img_portrait {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Réalisations */
+
+.gallerie img {
+    max-width: 100%;
+}
